@@ -15,26 +15,29 @@ AfriCO-X is a blockchain-based platform that enables transparent and secure trad
 - `Governance.sol`: Manages DAO voting and project approval
 
 ## Prerequisites
-- Node.js v16.0.0
-- npm v7.10.0
+- Node.js v16.0.0+
+- npm v7.10.0+
 - MetaMask browser extension
-- Truffle
-- Ganache
 
 ## Installation
 
-1. Clone the repository:
+1. Install global dependencies:
+```bash
+npm install -g truffle ganache-cli
+```
+
+2. Clone the repository:
 ```bash
 git clone https://github.com/chyna-gvng/alu_llp-summative_five.git
 cd alu_llp-summative_five
 ```
 
-2. Install dependencies:
+3. Install project dependencies:
 ```bash
 npm install
 ```
 
-3. Configure environment variables:
+4. Configure environment variables:
 ```bash
 cp example.env .env
 ```
