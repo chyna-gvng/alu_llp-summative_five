@@ -15,9 +15,9 @@ AfriCO-X is a blockchain-based platform that enables transparent and secure trad
 - `Governance.sol`: Manages DAO voting and project approval
 
 ## Prerequisites
-- Node.js v16.0.0+
-- npm v7.10.0+
-- MetaMask browser extension
+- Node.js v16.0.0
+- npm v7.10.0
+- MetaMask(Browser Extension)
 
 ## Installation
 
